@@ -1,2 +1,6 @@
 from flask import Flask
-from .views import app
+
+app = Flask(__name__)
+app.config.from_object("config.TestingConfig")
+
+from YKWIM import views
