@@ -1,0 +1,150 @@
+
+<http://data.grandlyon.com/id/commune/69003> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69029> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69033> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69034> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69040> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69044> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69046> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69063> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69068> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69069> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69071> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69072> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69081> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69085> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69087> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69088> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69089> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69091> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69096> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69100> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69116> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69123> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69127> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69142> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69143> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69149> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69153> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69163> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69168> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69191> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69194> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69202> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69205> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69207> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69233> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69244> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69250> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69256> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69259> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69266> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69271> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69275> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69276> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69279> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69282> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69283> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69284> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69290> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69292> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
+
+<http://data.grandlyon.com/id/commune/69296> a <http://data.ign.fr/def/geoflaCommune>,
+    <http://rdf.insee.fr/def/geo#Commune> .
