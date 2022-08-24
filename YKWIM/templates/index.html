@@ -32,7 +32,7 @@
                         <i class="bi bi-question-circle-fill"></i>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{url_for('static',filename='notice.pdf')}}" target=”_blank”>Aide Template</a></li>
+                        <li><a class="dropdown-item" href="{{url_for('static',filename='doc/notice.pdf')}}" target=”_blank”>Aide Template</a></li>
                         <li><a class="dropdown-item" href="">Exemples de vocabulaires partagés</a></li>
                     </ul>
                 </div>
@@ -51,7 +51,7 @@
                     <div class="col-8">
                         <div class="row pt-3">
                             <div class="col-8 offset-7">
-                                <a href="{{url_for('getDocumentLink',document_link='template.ods')}}">
+                                <a href="{{url_for('static',filename='doc/template.ods')}}">
                                     <img src="{{url_for('static',filename='/img/spreadsheet.ico')}}" alt="Lien de téléchargement du Template" class="img-thumbnail img-fluid col-2">
                                 </a>
                             </div>
