@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="251px" preserveAspectRatio="none" style="width:309px;height:251px;background:#FFFFFF;" version="1.1" viewBox="0 0 309 251" width="309px" zoomAndPan="magnify"><defs/><g><!--MD5=[108dbdc13dcde4de1e967ca0cf23b95c]
+class Commune--><g id="elem_Commune"><rect codeLine="1" fill="#F1F1F1" height="96.8906" id="Commune" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="7" y="148"/><ellipse cx="22" cy="164" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M24.9688,169.6406 Q24.3906,169.9375 23.75,170.0781 Q23.1094,170.2344 22.4063,170.2344 Q19.9063,170.2344 18.5781,168.5938 Q17.2656,166.9375 17.2656,163.8125 Q17.2656,160.6875 18.5781,159.0313 Q19.9063,157.375 22.4063,157.375 Q23.1094,157.375 23.75,157.5313 Q24.4063,157.6875 24.9688,157.9844 L24.9688,160.7031 Q24.3438,160.125 23.75,159.8594 Q23.1563,159.5781 22.5313,159.5781 Q21.1875,159.5781 20.5,160.6563 Q19.8125,161.7188 19.8125,163.8125 Q19.8125,165.9063 20.5,166.9844 Q21.1875,168.0469 22.5313,168.0469 Q23.1563,168.0469 23.75,167.7813 Q24.3438,167.5 24.9688,166.9219 L24.9688,169.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="36" y="168.8467">Commune</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="110" y1="180" y2="180"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="13" y="196.9951">nom</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="13" y="213.292">superficie</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="13" y="229.5889">altitude</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="110" y1="236.8906" y2="236.8906"/></g><!--MD5=[4337fef93a4164fb5e17f09a2ace23d6]
+class Personne--><g id="elem_Personne"><rect codeLine="6" fill="#F1F1F1" height="64.2969" id="Personne" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="91.5" y="7"/><ellipse cx="106.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M109.4688,28.6406 Q108.8906,28.9375 108.25,29.0781 Q107.6094,29.2344 106.9063,29.2344 Q104.4063,29.2344 103.0781,27.5938 Q101.7656,25.9375 101.7656,22.8125 Q101.7656,19.6875 103.0781,18.0313 Q104.4063,16.375 106.9063,16.375 Q107.6094,16.375 108.25,16.5313 Q108.9063,16.6875 109.4688,16.9844 L109.4688,19.7031 Q108.8438,19.125 108.25,18.8594 Q107.6563,18.5781 107.0313,18.5781 Q105.6875,18.5781 105,19.6563 Q104.3125,20.7188 104.3125,22.8125 Q104.3125,24.9063 105,25.9844 Q105.6875,27.0469 107.0313,27.0469 Q107.6563,27.0469 108.25,26.7813 Q108.8438,26.5 109.4688,25.9219 L109.4688,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="120.5" y="27.8467">Personne</text><line style="stroke:#181818;stroke-width:0.5;" x1="92.5" x2="189.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="97.5" y="55.9951">nomPerson</text><line style="stroke:#181818;stroke-width:0.5;" x1="92.5" x2="189.5" y1="63.2969" y2="63.2969"/></g><!--MD5=[83d663719cacb629c6960fa896b4e935]
+class Profession--><g id="elem_Profession"><rect codeLine="9" fill="#F1F1F1" height="88.5938" id="Profession" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="156" x="146" y="152"/><ellipse cx="183.95" cy="168" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M188.0594,174 L180.3406,174 L180.3406,161.6094 L188.0594,161.6094 L188.0594,163.7656 L182.7938,163.7656 L182.7938,166.4375 L187.5594,166.4375 L187.5594,168.5938 L182.7938,168.5938 L182.7938,171.8438 L188.0594,171.8438 L188.0594,174 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="203.05" y="172.8467">Profession</text><line style="stroke:#181818;stroke-width:0.5;" x1="147" x2="301" y1="184" y2="184"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="152" y="200.9951">Cadres administratifs</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="147" x2="301" y1="208.2969" y2="208.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="152" y="225.292">Anciens cadres</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="147" x2="301" y1="232.5938" y2="232.5938"/></g><!--MD5=[3c3a61db2baa00892c023cdbd32fdf19]
+link Personne to Commune--><g id="link_Personne_Commune"><path codeLine="15" d="M122.66,71.15 C117.18,80.66 111.24,91.2 106,101 C98.78,114.5 91.26,129.25 84.42,143.01 " fill="none" id="Personne-to-Commune" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="82.12,147.63,89.7146,141.3593,84.3503,143.155,82.5546,137.7907,82.12,147.63" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="107" y="114.0669">estMaireDe</text></g><!--MD5=[e6e255d365e02faac21c08abb2900deb]
+link Personne to Profession--><g id="link_Personne_Profession"><path codeLine="16" d="M165.52,71.05 C172.3,80.38 179.35,90.85 185,101 C192.99,115.35 200.3,131.67 206.38,146.67 " fill="none" id="Personne-to-Profession" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="208.39,151.7,208.7614,141.8581,206.533,147.0576,201.3336,144.8293,208.39,151.7" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="193" y="114.0669">profession</text></g><!--MD5=[2e996adb800442dfdb08acc7de44e253]
+@startuml
+class Commune {
+	nom
+	superficie
+	altitude
+}
+class Personne {
+	nomPerson
+}
+enum Profession {
+	Cadres administratifs
+..
+	Anciens cadres
+..
+}
+Personne - -> Commune : estMaireDe
+Personne - -> Profession : profession
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 19:34:49 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
