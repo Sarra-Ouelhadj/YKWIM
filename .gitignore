@@ -2,3 +2,8 @@
 __pycache__
 env/
 .cache/
+*.odt
+*.odt#
+*.ods
+*.ods#
+cmd
