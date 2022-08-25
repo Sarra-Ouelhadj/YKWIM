@@ -4,6 +4,5 @@ env/
 .cache/
 *.odt
 *.odt#
-*.ods
-*.ods#
+Specifications.ods
 cmd
