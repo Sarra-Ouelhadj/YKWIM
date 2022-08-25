@@ -9,9 +9,9 @@ class Config(object):
     UPLOAD_FOLDER = ""
 
 class ProductionConfig(Config):
-    pass
+    UPLOAD_FOLDER = "/tmp/"
 
-class DevelopementConfig(Config):
+class DevelopmentConfig(Config):
     DEBUG = True
     UPLOAD_FOLDER = MYDIR+"/YKWIM/results/"
 

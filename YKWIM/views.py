@@ -9,7 +9,7 @@ def index():
         datasetURL=request.form["datasetURL"]
         file = request.files["templateFile"]
         file.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(file.filename)))
-        uml_image = pl.plantUML2Image(app.config['UPLOAD_FOLDER']+file.filename, "svg")
+        uml_image = pl.plantUML2Image(app.config['UPLOAD_FOLDER']+secure_filename(file.filename), "svg")
         return render_template("index.html", uml_image=url_for('getDocumentLink',document_link=uml_image))
     else:            
         return render_template("index.html")
