@@ -9,7 +9,7 @@ class Config(object):
     UPLOAD_FOLDER = ""
 
 class ProductionConfig(Config):
-    UPLOAD_FOLDER = "/tmp/"
+    UPLOAD_FOLDER = MYDIR+ "/tmp/"
 
 class DevelopmentConfig(Config):
     DEBUG = True
