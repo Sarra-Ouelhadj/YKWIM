@@ -1,5 +1,5 @@
 from YKWIM import app, plantUML2Image as pl
-from flask import render_template, request, url_for, send_from_directory
+from flask import render_template, request, url_for, send_from_directory, redirect
 from werkzeug.utils import secure_filename
 import os
 
@@ -15,6 +15,7 @@ def index():
         return render_template("index.html")
 
 
-@app.route("/tmp/<document_link>")
+@app.route("/<document_link>")
 def getDocumentLink(document_link):
-    return send_from_directory(app.config['UPLOAD_FOLDER'],document_link, as_attachment=True)
+    return redirect("/tmp/"+document_link)
+    #send_from_directory(app.config['UPLOAD_FOLDER'],document_link)
