@@ -15,6 +15,6 @@ def index():
         return render_template("index.html")
 
 
-@app.route("/<document_link>")
+@app.route("/tmp/<document_link>")
 def getDocumentLink(document_link):
     return send_from_directory(app.config['UPLOAD_FOLDER'],document_link, as_attachment=True)
