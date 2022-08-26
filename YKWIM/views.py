@@ -10,11 +10,11 @@ def index():
         file = request.files["templateFile"]
         file.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(file.filename)))
         uml_image = pl.plantUML2Image(app.config['UPLOAD_FOLDER']+secure_filename(file.filename), "svg")
-        return render_template("index.html", uml_image=url_for('getDocumentLink',document_link=uml_image))
+        return render_template("index.html", uml_image=uml_image)
     else:            
         return render_template("index.html")
 
 
-@app.route("/tmp/<document_link>")
+@app.route("/<document_link>")
 def getDocumentLink(document_link):
-    return send_from_directory(app.config['UPLOAD_FOLDER'],document_link, as_attachment=True)
+    return send_from_directory(app.config['UPLOAD_FOLDER'],document_link)
