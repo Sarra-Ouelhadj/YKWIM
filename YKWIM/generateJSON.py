@@ -84,5 +84,3 @@ def generateJSON(file, path=app.config["UPLOAD_FOLDER"]):
     with open(json_path, 'w') as fp:
         json.dump(d,fp)
     return d
-
-generateJSON("Template.ods","/home/sarra/Documents/Doctorat/Python/SemanticLifting/YKWIM/")
