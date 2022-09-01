@@ -5,91 +5,84 @@ from YKWIM import app
 
 def generateJSON(file, path=app.config["UPLOAD_FOLDER"]):
     """generate JSON from template"""
-    
     book=p.get_book_dict(file_name=file)
+    
+    #classes sheet parsing
     list=[]
     d={}
-    for cl in book["Classes"][1:]: 
-        if (cl[0]!=''):
-            element={}
-            element["name"]= cl[0]
-            element["definition"]= cl[2]
-            element["IRI"]= cl[1]
-            list.append(element)
+    for cl in filter(lambda value:True if value[0]!='' else False,book["Classes"][1:]): 
+        element={}
+        element["name"]= cl[0]
+        element["definition"]= cl[2]
+        element["IRI"]= cl[1]
+        list.append(element)
     d["classes"]=list
 
     list_of_all_values = [elem["name"] for elem in d["classes"]]
 
+    #attributes sheet parsing
     list=[]
-    classe=book["Attributs"][1][0]
-    for attr in book["Attributs"][1:]: 
-        if (classe == attr[0]):
-            element={}
-            element["name"]= attr[1]
-            element["definition"]= attr[3]
-            element["IRI"]= attr[2]
-            element["source"]= attr[4]
-            element["id"]= attr[5]
-            list.append(element)
-        else:
+    classe=book["Attributs"][1][0] #à valider 
+    index= list_of_all_values.index(classe)
+    for attr in filter(lambda value:True if value[1]!='' else False,book["Attributs"][1:]): 
+        if (classe != attr[0] and attr[0]!=''):
+            classe=attr[0]
             index= list_of_all_values.index(classe)
-            d["classes"][index]["attributes"]=list
-            if (attr[0]!=''):
-                classe=attr[0]
-                list=[]
-                element={}
-                element["name"]= attr[1]
-                element["definition"]= attr[3]
-                element["IRI"]= attr[2]
-                element["source"]= attr[4]
-                element["id"]= attr[5]
-                list.append(element)
-
+            list=[]
+        element={}
+        element["name"]= attr[1]
+        element["definition"]= attr[3]
+        element["IRI"]= attr[2]
+        element["source"]= attr[4]
+        element["id"]= attr[5]
+        list.append(element)
+        d["classes"][index]["attributes"]=list
+    
+    #associations sheet parsing
     list=[]
-    for ass in book["Associations"][1:]: 
-        if (ass[0]!=''):
-            element={}
-            element["name"]= ass[2]
-            element["source"]= ass[0]
-            element["destination"]= ass[1]
-            element["definition"]= ass[4]
-            element["IRI"]= ass[3]
-            list.append(element)
+    association= book["Associations"][1][0]
+    for ass in filter(lambda value:True if value[2]!='' else False,book["Associations"][1:]): 
+        if (association != ass[0] and ass[0]!=''): association=ass[0]
+        element={}
+        element["name"]= ass[2]
+        element["source"]= association
+        element["destination"]= ass[1]
+        element["definition"]= ass[4]
+        element["IRI"]= ass[3]
+        list.append(element)
     d["associations"]=list
 
+    #enumerations sheet parsing
     list=[]
-    for enum in book["Énumérations"][1:]: 
-        if (enum[0]!=''):
-            element={}
-            element["name"]= enum[0]
-            element["definition"]= enum[2]
-            element["IRI"]= enum[1]
-            list.append(element)
+    for enum in filter(lambda value:True if value[0]!='' else False, book["Énumérations"][1:]): 
+        element={}
+        element["name"]= enum[0]
+        element["definition"]= enum[2]
+        element["IRI"]= enum[1]
+        list.append(element)
     d["enumerations"]=list
 
     list_of_all_values = [elem["name"] for elem in d["enumerations"]]
 
+    #enumeration values sheet parsing
     list=[]
-    enumeration=book["Valeurs d'énumération"][1][0]
-    for enum in book["Valeurs d'énumération"][1:]: 
-        if (enumeration == enum[0]):
-            element={}
-            element["name"]= enum[1]
-            element["definition"]= enum[3]
-            element["IRI"]= enum[2]
-            list.append(element)
-        else : 
+    enumeration=book["Valeurs d'énumération"][1][0] #à valider 
+    index= list_of_all_values.index(enumeration)
+    for enum in filter(lambda value:True if value[1]!='' else False,book["Valeurs d'énumération"][1:]): 
+        if (enumeration != enum[0] and enum[0]!=''):
+            enumeration=attr[0]
             index= list_of_all_values.index(enumeration)
-            d["enumerations"][index]["values"]=list
-            if (enum[0]!=''):
-                enumeration=enum[0]
-                list=[]
-                element={}
-                element["name"]= enum[1]
-                element["definition"]= enum[3]
-                element["IRI"]= enum[2]
-                list.append(element)
+            list=[]
+        element={}
+        element["name"]= enum[1]
+        element["definition"]= enum[3]
+        element["IRI"]= enum[2]
+        list.append(element)
+        d["enumerations"][index]["values"]=list
+
     json_path = path + "parsing_result.json"
     with open(json_path, 'w') as fp:
         json.dump(d,fp)
     return d
+
+generateJSON("Template.ods","/home/sarra/Documents/Doctorat/Python/SemanticLifting/YKWIM/")

@@ -6,3 +6,5 @@ env/
 *.odt#
 Specifications.ods
 cmd
+*.ipynb*
+.~*
