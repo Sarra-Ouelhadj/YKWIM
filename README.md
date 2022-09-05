@@ -4,7 +4,7 @@ d'un *tableur* appelé ici [template](https://www.google.com) et son traitement 
 
 ## Aperçu de la méthode
 
-[Notice méthode d’enrichissement sémantique](https://www.google.com)
+[Notice méthode d’enrichissement sémantique](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/notice.pdf)
 
 ## Aperçu du traitement automatique
 
