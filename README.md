@@ -51,7 +51,7 @@ $ git clone https://github.com/Sarra-Ouelhadj/YKWIM.git
 $ pip install -r requirements.txt
 $ python run.py
 ```
-### sur Heroku (yet under construction)
+### sur Heroku (en construction)
 
 link : [https://semantic-lifting-method.herokuapp.com/](https://semantic-lifting-method.herokuapp.com/)
 
