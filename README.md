@@ -63,6 +63,8 @@ $ pip install -r requirements.txt
 $ python run.py
 ```
 lancement de la solution en local sur http://127.0.0.1:5000/
+- Télécharger [template de test](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/tests/template_test.ods) déjà rempli
+- (mettre n'importe quel URL dans le champs URL du jeu de données pour l'instant) (en cours de développement)
 
 ### sur Heroku (en construction)
 
