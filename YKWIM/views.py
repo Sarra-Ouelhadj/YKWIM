@@ -1,5 +1,5 @@
-from YKWIM import app, plantUML2Image as pl
-from flask import render_template, request, url_for, send_from_directory, redirect
+from YKWIM import app, plantUML2Image as pl, validateTemplate as val
+from flask import render_template, request, send_from_directory, flash
 from werkzeug.utils import secure_filename
 import os
 
@@ -9,8 +9,12 @@ def index():
         datasetURL=request.form["datasetURL"]
         file = request.files["templateFile"]
         file.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(file.filename)))
-        uml_image = pl.plantUML2Image(app.config['UPLOAD_FOLDER']+secure_filename(file.filename),"svg")
-        return render_template("index.html", uml_image=url_for('getDocumentLink',document_link=uml_image))
+        error_template = val.validateTemplate(app.config['UPLOAD_FOLDER']+secure_filename(file.filename))
+        if error_template == None :
+            uml_image = pl.plantUML2Image(app.config['UPLOAD_FOLDER']+secure_filename(file.filename),"svg")
+            return render_template("index.html", uml_image=uml_image)
+        else: 
+            return render_template("index.html", error_template=error_template)
     else:            
         return render_template("index.html")
 

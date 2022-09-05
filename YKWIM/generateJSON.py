@@ -22,7 +22,7 @@ def generateJSON(file, path=app.config["UPLOAD_FOLDER"]):
 
     #attributes sheet parsing
     list=[]
-    classe=book["Attributs"][1][0] #à valider 
+    classe=book["Attributs"][1][0] 
     index= list_of_all_values.index(classe)
     for attr in filter(lambda value:True if value[1]!='' else False,book["Attributs"][1:]): 
         if (classe != attr[0] and attr[0]!=''):
@@ -66,7 +66,7 @@ def generateJSON(file, path=app.config["UPLOAD_FOLDER"]):
 
     #enumeration values sheet parsing
     list=[]
-    enumeration=book["Valeurs d'énumération"][1][0] #à valider 
+    enumeration=book["Valeurs d'énumération"][1][0]
     index= list_of_all_values.index(enumeration)
     for enum in filter(lambda value:True if value[1]!='' else False,book["Valeurs d'énumération"][1:]): 
         if (enumeration != enum[0] and enum[0]!=''):

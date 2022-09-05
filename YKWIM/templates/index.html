@@ -77,16 +77,26 @@
                         <div class="row py-3">
                             <button type="submit" class="offset-4 btn btn-primary col-8" aria-disabled="disabled">Convertir</button>
                         </div>
+                        {% if error_template %}
+                                <div class="row py-3">
+                                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <span>{{error_template}}</span>
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                      </div>
+                                </div>
+                        {% endif %}
                     </form>
                 </div>
                 
                 <!--UML class diagram-->
+                {% if uml_image %}
                 <div class="container py-3">
                     <div class="row justify-content-center">
-                        <p class="col-6 border">remarques</p>
-                        <img src="{{uml_image}}" class="col-6 border" alt="UML class diagram">
+                        <p class="col-6 border">Données RDF</p>
+                        <img src="{{url_for('getDocumentLink',document_link=uml_image)}}" class="col-6 border" alt="UML class diagram">
                     </div>
                 </div>
+                {% endif %}
             </div>
 
             <div class="tab-pane" id="pills-config" role="tabpanel" aria-labelledby="pills-config-tab">
