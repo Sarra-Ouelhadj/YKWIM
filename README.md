@@ -10,6 +10,7 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 👉️ Voir [notice](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/notice.pdf) méthode d’enrichissement sémantique
 
 ### 1.2 Traitement automatique (actions automatisées)
+![auto](https://user-images.githubusercontent.com/59183609/188470029-ffa676ef-3781-424f-b3cd-370636633b4b.png)
 
 
 #### 1.2.1 Validations effectuées sur le template et les fonctionnalités qu'il offre aux utilisateurs 
