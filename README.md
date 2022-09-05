@@ -41,13 +41,17 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ||Afficher la liste des classes et des énumérations destinations à partir de la feuille « Classes » colonne « classe » et de la feuille «Énumérations» colonne « énumération »|
 
 ## 2. Lancement de la solution
+### Prérequis (pour le local)
+* Avoir python 3.8.10 installé
+* Avoir pip 20.0.2 installé
+
 ### en local
 ```
 $ git clone https://github.com/Sarra-Ouelhadj/YKWIM.git
-$ cd SemanticLifting
+$ pip install -r requirements.txt
 $ python run.py
 ```
-### sur Heroku
-```
-$ heroku run 
-```
+### sur Heroku (yet under construction)
+
+link : [https://semantic-lifting-method.herokuapp.com/](https://semantic-lifting-method.herokuapp.com/)
+
