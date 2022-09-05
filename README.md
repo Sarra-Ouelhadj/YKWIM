@@ -3,16 +3,19 @@
 Ce projet a pour objectif de permettre aux utilisateurs d'enrichir sémantiquement leurs données (obtenir des données RDF) via une *méthode* basée sur l'utilisation 
 d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/template.ods) et son traitement automatique.
 
-## Aperçu de la méthode
+## Aperçu général de la méthode
+![Méthode](https://user-images.githubusercontent.com/59183609/188460869-e497f42c-b209-4e50-a0c2-1c08723a89b9.png)
 
-[Notice méthode d’enrichissement sémantique](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/notice.pdf)
+### Utilisation du template (actions manuelles)
+👉️ Voir [notice](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/notice.pdf) méthode d’enrichissement sémantique
 
-## Aperçu du traitement automatique
-
-### Validations effectuées sur le template et les fonctionnalités qu'il offre aux utilisateurs 
+### Traitement automatique (actions automatisées)
 
 
-#### Validations
+#### Validations effectuées sur le template et les fonctionnalités qu'il offre aux utilisateurs 
+
+
+##### Validations
 | feuille | vérification |
 |---|---|
 |Classes|0. La feuille classe doit contenir au moins une classe|
@@ -25,7 +28,7 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ||1. Chaque valeur d'énumération doit avoir un lien de référence ou une définition|
 |Associations|0. Chaque association doit avoir un lien de référence ou une définition|
 
-#### Fonctionnalités
+##### Fonctionnalités
 |feuille|fonctionnalité|
 |---|---|
 |Attributs|Afficher la liste des classes à partir de la feuille « Classes » colonne « classe »|
