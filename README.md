@@ -1,6 +1,6 @@
 # YKWIM
 Ce projet a pour objectif de permettre aux utilisateurs d'enrichir sémantiquement leurs données (obtenir des données RDF) via une *méthode* basée sur l'utilisation 
-d'un *tableur* appelé ici [template](https://www.google.com) et son traitement automatique.
+d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/template.ods) et son traitement automatique.
 
 ## Aperçu de la méthode
 
