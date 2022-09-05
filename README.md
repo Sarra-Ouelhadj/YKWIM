@@ -43,7 +43,7 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ## 2. Lancement de la solution
 ### en local
 ```
-$ git clone
+$ git clone https://github.com/Sarra-Ouelhadj/YKWIM.git
 $ cd SemanticLifting
 $ python run.py
 ```
