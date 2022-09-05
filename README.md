@@ -48,9 +48,22 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ### en local
 ```
 $ git clone https://github.com/Sarra-Ouelhadj/YKWIM.git
+```
+
+------
+[optionnel] : pour installer les libraries dans un environnement virtuel au lieu du système
+```
+$ virtualenv env -p /usr/bin/python3
+$ source . venv/bin/activate`
+```
+------
+```
+$ cd YKWIM
 $ pip install -r requirements.txt
 $ python run.py
 ```
+lancement de la solution en local sur http://127.0.0.1:5000/
+
 ### sur Heroku (en construction)
 
 link : [https://semantic-lifting-method.herokuapp.com/](https://semantic-lifting-method.herokuapp.com/)
