@@ -61,24 +61,26 @@ def generateJSON(file, path=app.config["UPLOAD_FOLDER"]):
         element["IRI"]= enum[1]
         list.append(element)
     d["enumerations"]=list
+    enum_exist = True if (len(list)!=0) else False
 
-    list_of_all_values = [elem["name"] for elem in d["enumerations"]]
+    if enum_exist :
+        list_of_all_values = [elem["name"] for elem in d["enumerations"]]
 
-    #enumeration values sheet parsing
-    list=[]
-    enumeration=book["Valeurs d'énumération"][1][0]
-    index= list_of_all_values.index(enumeration)
-    for enum in filter(lambda value:True if value[1]!='' else False,book["Valeurs d'énumération"][1:]): 
-        if (enumeration != enum[0] and enum[0]!=''):
-            enumeration=enum[0]
-            index= list_of_all_values.index(enumeration)
-            list=[]
-        element={}
-        element["name"]= enum[1]
-        element["definition"]= enum[3]
-        element["IRI"]= enum[2]
-        list.append(element)
-        d["enumerations"][index]["values"]=list
+        #enumeration values sheet parsing
+        list=[]
+        enumeration=book["Valeurs d'énumération"][1][0]
+        index= list_of_all_values.index(enumeration)
+        for enum in filter(lambda value:True if value[1]!='' else False,book["Valeurs d'énumération"][1:]): 
+            if (enumeration != enum[0] and enum[0]!=''):
+                enumeration=enum[0]
+                index= list_of_all_values.index(enumeration)
+                list=[]
+            element={}
+            element["name"]= enum[1]
+            element["definition"]= enum[3]
+            element["IRI"]= enum[2]
+            list.append(element)
+            d["enumerations"][index]["values"]=list
 
     json_path = path + "parsing_result.json"
     with open(json_path, 'w') as fp:
