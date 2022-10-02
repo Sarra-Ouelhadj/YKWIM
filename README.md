@@ -25,6 +25,7 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ||1. Tous les champs doivent être remplis. Le choix existe uniquement entre lien de référence et définition.|
 ||2. Chaque classe doit avoir au minimum un identifiant|
 |Énumérations|0. Chaque énumération doit avoir un lien de référence ou une définition|
+||1. La source de chaque énumération est obligatoire|
 |Valeurs d’énumération|0. Le nom de l'énumération de la 1ère valeur est obligatoire|
 ||1. Chaque valeur d'énumération doit avoir un lien de référence ou une définition|
 |Associations|0. Chaque association doit avoir un lien de référence ou une définition|
