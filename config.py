@@ -7,6 +7,9 @@ class Config(object):
     DEBUG = False
     TESTING = False
     UPLOAD_FOLDER = ""
+    ONTOLOGY_NAMESPACE = "https://data.grandlyon.com/onto/"
+    VOCABULARY_NAMESPACE ="https://data.grandlyon.com/vocab/"
+    INSTANCES_NAMESPACE = "https://data.grandlyon.com/id/"
 
 class ProductionConfig(Config):
     UPLOAD_FOLDER = MYDIR + "/tmp/"

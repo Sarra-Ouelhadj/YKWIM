@@ -59,6 +59,7 @@ def generateJSON(file, path=app.config["UPLOAD_FOLDER"]):
         element["name"]= enum[0]
         element["definition"]= enum[2]
         element["IRI"]= enum[1]
+        element["source"]=enum[3]
         list.append(element)
     d["enumerations"]=list
     enum_exist = True if (len(list)!=0) else False

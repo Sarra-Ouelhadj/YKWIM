@@ -51,7 +51,7 @@
                     <div class="col-8">
                         <div class="row pt-3">
                             <div class="col-8 offset-7">
-                                <a href="{{url_for('static',filename='/doc/template.ods')}}">
+                                <a href="{{url_for('static',filename='/doc/template.xlsx')}}">
                                     <img src="{{url_for('static',filename='/img/spreadsheet.ico')}}" alt="Lien de téléchargement du Template" class="img-thumbnail img-fluid col-2">
                                 </a>
                             </div>
@@ -92,7 +92,11 @@
                 {% if uml_image %}
                 <div class="container py-3">
                     <div class="row justify-content-center">
-                        <p class="col-6 border">Données RDF</p>
+                        <p class="col-6 border">
+                            {% for line in b_lines %}
+                                {{ line }}
+                            {% endfor %}
+                        </p>
                         <img src="{{url_for('getDocumentLink',document_link=uml_image)}}" class="col-6 border" alt="UML class diagram">
                     </div>
                 </div>
@@ -103,10 +107,24 @@
                 <div class="row justify-content-center">
                     <form class="col-8">
                         <div class="row py-3">
-                            <label for="ontologyURL" class="col-4 form-label col-form-label">URL</label>
+                            <label for="vocabularyURL" class="col-4 form-label col-form-label">URL de base des vocabulaires contrôlés</label>
                             <div class="col-8">
-                                <input type="url" id="ontologyURL" class="form-control" aria-describedby="ontologyURLHelp"> 
+                                <input type="url" id="vocabularyURL" class="form-control" value="{{vocabulary_namespace}}" aria-describedby="vocabularyURLHelp"> 
+                                <span id="vocabularyURLHelp" class="form-text visually-hidden"></span>
+                            </div>
+                        </div>
+                        <div class="row py-3">
+                            <label for="ontologyURL" class="col-4 form-label col-form-label">URL de base des ontologies</label>
+                            <div class="col-8">
+                                <input type="url" id="ontologyURL" class="form-control" value="{{ontology_namespace}}" aria-describedby="ontologyURLHelp"> 
                                 <span id="ontologyURLHelp" class="form-text visually-hidden"></span>
+                            </div>
+                        </div>
+                        <div class="row py-3">
+                            <label for="intancesURL" class="col-4 form-label col-form-label">URL de base des instances</label>
+                            <div class="col-8">
+                                <input type="url" id="intancesURL" class="form-control" value="{{instances_namespace}}" aria-describedby="instancesURLHelp"> 
+                                <span id="instancesURLHelp" class="form-text visually-hidden"></span>
                             </div>
                         </div>
                     </form>

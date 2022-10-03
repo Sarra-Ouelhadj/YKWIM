@@ -1,4 +1,5 @@
 import pyexcel as p
+from YKWIM import helpers as h
 
 def validateTemplate(file):
     
@@ -19,6 +20,9 @@ def validateTemplate(file):
     #attributes sheet validation
     #------------------------
 
+    attribute_total_number = 0
+    set_of_attributes = set()
+
     #0. Le nom de la classe du 1er attribut est obligatoire
     if (book["Attributs"][1][0]=='') : return "Le nom de la classe du 1er attribut est obligatoire"
 
@@ -37,9 +41,14 @@ def validateTemplate(file):
             classe=attr[0]
             list=[]
         list.append(attr[5])
+        attribute_total_number+=1
+        set_of_attributes.add(h.convertToCamelcase(attr[1]))
 
     # vérifier l'identifiant de la dernière classe
     if ("oui" not in list) : return f"la classe {classe} n'a pas d'identifiant"
+
+    #3. Pas d'attributs avec le même nom dans le modèle UML
+    if len(set_of_attributes)< attribute_total_number : return f"Des attributs avec le même nom existent dans votre modèle UML"
     
     #------------------------
     #associations sheet validation
@@ -52,10 +61,13 @@ def validateTemplate(file):
     #------------------------
     #enumerations sheet validation
     #------------------------
-
+    enum_exit=False
     #0. Chaque énumération doit avoir un lien de référence ou une définition
     for enum in filter(lambda value:True if value[0]!='' else False, book["Énumérations"][1:]): 
-        if (enum[1]=='' and enum[2]==''): return f"L'énumération {enum[0]} doit avoir un lien de référence ou une définition" 
+        if (enum[1]=='' and enum[2]==''): return f"L'énumération {enum[0]} doit avoir un lien de référence ou une définition"
+
+        #1. La source de chaque énumération est obligatoire
+        if (enum[3]==''): return f"L'énumération {enum[0]} n'a pas de source"        
         enum_exit=True #une énumération existe dans le diagramme UML
     
     #------------------------
