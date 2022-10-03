@@ -46,6 +46,7 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ### Prérequis (pour le local)
 * Avoir python 3.8.10 installé
 * Avoir pip 20.0.2 installé
+* Avoir java 11.0.16
 
 ### en local
 ```
