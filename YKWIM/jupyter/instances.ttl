@@ -1,0 +1,184 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix iter:  <http://w3id.org/sparql-generate/iter/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fun:   <http://w3id.org/sparql-generate/fn/> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/16>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Centre de tri Coved" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/centre_de_tri> ;
+        <https://schema.org/address>   "Rue du Broteau" ;
+        <https://schema.org/identifier>
+                "16" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/IRIGNY> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/961>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Centre de tri Onyx" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/centre_de_tri> ;
+        <https://schema.org/address>   "Avenue du 8 Mai1945" ;
+        <https://schema.org/identifier>
+                "961" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/RILLIEUX-LA-PAPE> .
+
+<https://data.grandlyon.com/id/Commune/GIVORS>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "GIVORS" .
+
+<https://data.grandlyon.com/id/Commune/Venissieux>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Venissieux" .
+
+<https://data.grandlyon.com/id/Commune/LYON 7EME>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "LYON 7EME" .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/322>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "UTVE Lyon NORD" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/incinération> ;
+        <https://schema.org/address>   "110 Route du Mas Rillier" ;
+        <https://schema.org/identifier>
+                "322" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/RILLIEUX-LA-PAPE> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/15>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Centre de tri Nicollin" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/centre_de_tri> ;
+        <https://schema.org/address>   "12-14 rue Charles Martin" ;
+        <https://schema.org/identifier>
+                "15" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/SAINT-FONS> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/1350>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "OUI_COMPOST" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/centre_de_traitement> ;
+        <https://schema.org/address>   "158 Cours Charlemagne" ;
+        <https://schema.org/identifier>
+                "1350" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/690002 Lyon> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/966>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Quai de transfert Villefrance" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/quai_de_transfert> ;
+        <https://schema.org/address>   "90 Rue Benoît Frachon" ;
+        <https://schema.org/identifier>
+                "966" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/VILLEFRANCHE-SUR-SAONE> .
+
+<https://data.grandlyon.com/id/Commune/690002 Lyon>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "690002 Lyon" .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/321>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Centre de tri Décines" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/centre_de_tri> ;
+        <https://schema.org/address>   "26 rue Wilson" ;
+        <https://schema.org/identifier>
+                "321" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/DECINES-CHARPIEU> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/1014>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Givors Bans - CS" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/quai_de_transfert> ;
+        <https://schema.org/address>   "Chemin de la Lône" ;
+        <https://schema.org/identifier>
+                "1014" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/GIVORS> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/965>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "UTVE Villefranche" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/incinération> ;
+        <https://schema.org/address>   "90 Rue Benoît Frachon" ;
+        <https://schema.org/identifier>
+                "965" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/VILLEFRANCHE-SUR-SAONE> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/1013>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Givors Bans - OM" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/quai_de_transfert> ;
+        <https://schema.org/address>   "Chemin de la Lône" ;
+        <https://schema.org/identifier>
+                "1013" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/GIVORS> .
+
+<https://data.grandlyon.com/id/Commune/IRIGNY>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "IRIGNY" .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/964>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Plateforme Guérin" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/centre_de_tri> ;
+        <https://schema.org/address>   "2-3 Impasse Lucien Sampaix" ;
+        <https://schema.org/identifier>
+                "964" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/SAINT-FONS> .
+
+<https://data.grandlyon.com/id/Commune/RILLIEUX-LA-PAPE>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "RILLIEUX-LA-PAPE" .
+
+<https://data.grandlyon.com/id/Commune/VILLEFRANCHE-SUR-SAONE>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "VILLEFRANCHE-SUR-SAONE" .
+
+<https://data.grandlyon.com/id/Commune/69680 Chassieu>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "69680 Chassieu" .
+
+<https://data.grandlyon.com/id/Commune/DECINES-CHARPIEU>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "DECINES-CHARPIEU" .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/1349>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "LES ALCHIMISTES" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/centre_de_traitement> ;
+        <https://schema.org/address>   "USIN, 41-47 bld Marcel Sembat" ;
+        <https://schema.org/identifier>
+                "1349" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/Venissieux> .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/11>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "UTVE Lyon SUD" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/incinération> ;
+        <https://schema.org/address>   "7 Rue de Dole" ;
+        <https://schema.org/identifier>
+                "11" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/LYON 7EME> .
+
+<https://data.grandlyon.com/id/Commune/SAINT-FONS>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "SAINT-FONS" .
+
+<https://data.grandlyon.com/id/Sitetraitementdechets/1333>
+        a                              <https://data.grandlyon.com/onto/Sitetraitementdechets> ;
+        rdfs:label                     "Trivalo 69" ;
+        <https://data.grandlyon.com/onto/apouractivite>
+                <https://data.grandlyon.com/vocab/centre_de_tri> ;
+        <https://schema.org/address>   "12-16 rue Blaise Pascal" ;
+        <https://schema.org/identifier>
+                "1333" ;
+        <https://schema.org/location>  <https://data.grandlyon.com/id/Commune/69680 Chassieu> .
