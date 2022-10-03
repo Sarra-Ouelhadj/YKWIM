@@ -1,0 +1,25 @@
+PREFIX iter: <http://w3id.org/sparql-generate/iter/>
+    PREFIX fun: <http://w3id.org/sparql-generate/fn/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    GENERATE {
+?Sitetraitementdechets a <https://data.grandlyon.com/onto/Sitetraitementdechets>;
+	<http://www.w3.org/2000/01/rdf-schema#label> ?Nom;
+	<https://schema.org/identifier> ?Identifiant;
+	<https://schema.org/address> ?Adresse.
+?Commune a <http://data.ign.fr/def/geofla#Commune>;
+	<http://www.w3.org/2000/01/rdf-schema#label> ?Nomcommune.
+?Sitetraitementdechets <https://data.grandlyon.com/onto/apouractivite> ?Activite.
+?Sitetraitementdechets <https://schema.org/location> ?Commune.
+} 
+ SOURCE <https://download.data.grandlyon.com/wfs/grandlyon?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=gic_collecte.gicsitetraitement&outputFormat=application/json;%20subtype=geojson&SRSNAME=EPSG:4171> AS ?source 
+ITERATOR iter:GeoJSON(?source) AS ?geometricCoordinates ?properties 
+ WHERE {
+BIND (fun:JSONPath(?properties,"$.nom") AS ?Nom)
+BIND (fun:JSONPath(?properties,"$.identifiant") AS ?Identifiant)
+BIND(IRI(CONCAT("https://data.grandlyon.com/id/Sitetraitementdechets/",fun:JSONPath(?properties,"$.identifiant"))) AS ?Sitetraitementdechets)
+BIND (fun:JSONPath(?properties,"$.adresse") AS ?Adresse)
+BIND (fun:JSONPath(?properties,"$.commune") AS ?Nomcommune)
+BIND(IRI(CONCAT("https://data.grandlyon.com/id/Commune/",fun:JSONPath(?properties,"$.commune"))) AS ?Commune)
+BIND(IRI(CONCAT("https://data.grandlyon.com/vocab/",REPLACE(LCASE(fun:JSONPath(?properties,"$.activite"))," ","_"))) AS ?Activite)
+}

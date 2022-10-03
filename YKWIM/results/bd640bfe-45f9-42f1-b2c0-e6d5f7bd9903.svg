@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="325px" preserveAspectRatio="none" style="width:320px;height:325px;background:#FFFFFF;" version="1.1" viewBox="0 0 320 325" width="320px" zoomAndPan="magnify"><defs/><g><!--MD5=[42c0993de15977a63d0106935aef8f85]
+class SiteTraitementDechets--><g id="elem_SiteTraitementDechets"><rect codeLine="1" fill="#F1F1F1" height="96.8906" id="SiteTraitementDechets" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="192" x="53.5" y="7"/><ellipse cx="68.5" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M71.4688,28.6406 Q70.8906,28.9375 70.25,29.0781 Q69.6094,29.2344 68.9063,29.2344 Q66.4063,29.2344 65.0781,27.5938 Q63.7656,25.9375 63.7656,22.8125 Q63.7656,19.6875 65.0781,18.0313 Q66.4063,16.375 68.9063,16.375 Q69.6094,16.375 70.25,16.5313 Q70.9063,16.6875 71.4688,16.9844 L71.4688,19.7031 Q70.8438,19.125 70.25,18.8594 Q69.6563,18.5781 69.0313,18.5781 Q67.6875,18.5781 67,19.6563 Q66.3125,20.7188 66.3125,22.8125 Q66.3125,24.9063 67,25.9844 Q67.6875,27.0469 69.0313,27.0469 Q69.6563,27.0469 70.25,26.7813 Q70.8438,26.5 71.4688,25.9219 L71.4688,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="82.5" y="27.8467">SiteTraitementDechets</text><line style="stroke:#181818;stroke-width:0.5;" x1="54.5" x2="244.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="59.5" y="55.9951">nom</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="59.5" y="72.292">identifiant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="59.5" y="88.5889">adresse</text><line style="stroke:#181818;stroke-width:0.5;" x1="54.5" x2="244.5" y1="95.8906" y2="95.8906"/></g><!--MD5=[108dbdc13dcde4de1e967ca0cf23b95c]
+class Commune--><g id="elem_Commune"><rect codeLine="6" fill="#F1F1F1" height="64.2969" id="Commune" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115" x="7" y="217.5"/><ellipse cx="26.95" cy="233.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M29.9188,239.1406 Q29.3406,239.4375 28.7,239.5781 Q28.0594,239.7344 27.3563,239.7344 Q24.8563,239.7344 23.5281,238.0938 Q22.2156,236.4375 22.2156,233.3125 Q22.2156,230.1875 23.5281,228.5313 Q24.8563,226.875 27.3563,226.875 Q28.0594,226.875 28.7,227.0313 Q29.3563,227.1875 29.9188,227.4844 L29.9188,230.2031 Q29.2938,229.625 28.7,229.3594 Q28.1063,229.0781 27.4813,229.0781 Q26.1375,229.0781 25.45,230.1563 Q24.7625,231.2188 24.7625,233.3125 Q24.7625,235.4063 25.45,236.4844 Q26.1375,237.5469 27.4813,237.5469 Q28.1063,237.5469 28.7,237.2813 Q29.2938,237 29.9188,236.4219 L29.9188,239.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="42.05" y="238.3467">Commune</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="121" y1="249.5" y2="249.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="13" y="266.4951">nomCommune</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="121" y1="273.7969" y2="273.7969"/></g><!--MD5=[ec80e38a8c68884e42f32734d2d2fc2d]
+class Activite--><g id="elem_Activite"><rect codeLine="9" fill="#F1F1F1" height="137.1875" id="Activite" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="156" x="157.5" y="181"/><ellipse cx="206.75" cy="197" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M210.8594,203 L203.1406,203 L203.1406,190.6094 L210.8594,190.6094 L210.8594,192.7656 L205.5938,192.7656 L205.5938,195.4375 L210.3594,195.4375 L210.3594,197.5938 L205.5938,197.5938 L205.5938,200.8438 L210.8594,200.8438 L210.8594,203 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="227.25" y="201.8467">Activite</text><line style="stroke:#181818;stroke-width:0.5;" x1="158.5" x2="312.5" y1="213" y2="213"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="163.5" y="229.9951">Centre de tri</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="158.5" x2="312.5" y1="237.2969" y2="237.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="163.5" y="254.292">Quai de transfert</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="158.5" x2="312.5" y1="261.5938" y2="261.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="163.5" y="278.5889">Incinération</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="158.5" x2="312.5" y1="285.8906" y2="285.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="163.5" y="302.8857">Centre de traitement</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:1.0,2.0;" x1="158.5" x2="312.5" y1="310.1875" y2="310.1875"/></g><!--MD5=[dff818661af6c60f7a32ab304b88be12]
+link SiteTraitementDechets to Activite--><g id="link_SiteTraitementDechets_Activite"><path codeLine="19" d="M180.75,104.4 C186.38,114 191.91,124.16 196.5,134 C202.72,147.34 208.46,161.95 213.52,176.14 " fill="none" id="SiteTraitementDechets-to-Activite" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="215.2,180.94,215.9983,171.1236,213.5463,176.2214,208.4485,173.7694,215.2,180.94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="203.5" y="147.0669">aPourActivite</text></g><!--MD5=[98a0e3727604b801d5aba08975b6f5fa]
+link SiteTraitementDechets to Commune--><g id="link_SiteTraitementDechets_Commune"><path codeLine="20" d="M123.98,104.08 C118.99,113.89 113.94,124.21 109.5,134 C97.81,159.79 86.16,189.58 77.64,212.3 " fill="none" id="SiteTraitementDechets-to-Commune" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="75.88,217.04,82.7925,210.0245,77.6403,212.3601,75.3047,207.208,75.88,217.04" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="110.5" y="147.0669">seSitueDans</text></g><!--MD5=[bb3427ba1ee195030ee36b92d9b9a8c9]
+@startuml
+class SiteTraitementDechets {
+	nom
+	identifiant
+	adresse
+}
+class Commune {
+	nomCommune
+}
+enum Activite {
+	Centre de tri
+..
+	Quai de transfert
+..
+	Incinération
+..
+	Centre de traitement
+..
+}
+SiteTraitementDechets - -> Activite : aPourActivite
+SiteTraitementDechets - -> Commune : seSitueDans
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 19:34:49 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

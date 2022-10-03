@@ -1,0 +1,38 @@
+@prefix ns1: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.grandlyon.com/vocab/centre_de_traitement> a skos:Concept ;
+    rdfs:isDefinedBy <https://data.grandlyon.com/vocab/> ;
+    ns1:term_status "testing" ;
+    skos:definition "Centre de traitement" ;
+    skos:inScheme <https://data.grandlyon.com/vocab/Activite> ;
+    skos:prefLabel "Centre de traitement" .
+
+<https://data.grandlyon.com/vocab/centre_de_tri> a skos:Concept ;
+    rdfs:isDefinedBy <https://data.grandlyon.com/vocab/> ;
+    ns1:term_status "testing" ;
+    skos:definition "tri des déchets issus de la collecte sélective" ;
+    skos:inScheme <https://data.grandlyon.com/vocab/Activite> ;
+    skos:prefLabel "Centre de tri" .
+
+<https://data.grandlyon.com/vocab/incinération> a skos:Concept ;
+    rdfs:isDefinedBy <https://data.grandlyon.com/vocab/> ;
+    ns1:term_status "testing" ;
+    skos:definition "incinération d’ordures ménagères" ;
+    skos:inScheme <https://data.grandlyon.com/vocab/Activite> ;
+    skos:prefLabel "Incinération" .
+
+<https://data.grandlyon.com/vocab/quai_de_transfert> a skos:Concept ;
+    rdfs:isDefinedBy <https://data.grandlyon.com/vocab/> ;
+    ns1:term_status "testing" ;
+    skos:definition "Quai de transfert" ;
+    skos:inScheme <https://data.grandlyon.com/vocab/Activite> ;
+    skos:prefLabel "Quai de transfert" .
+
+<https://data.grandlyon.com/vocab/Activite> a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://data.grandlyon.com/vocab/> ;
+    ns1:term_status "testing" ;
+    skos:definition "type d’activité réalisée dans le site de traitement des déchets" ;
+    skos:prefLabel "Activite" .
+
