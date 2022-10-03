@@ -56,7 +56,7 @@ $ git clone https://github.com/Sarra-Ouelhadj/YKWIM.git
 [optionnel] : pour installer les libraries dans un environnement virtuel au lieu du système
 ```
 $ virtualenv env -p /usr/bin/python3
-$ source . venv/bin/activate`
+$ source . venv/bin/activate
 ```
 ------
 ```
