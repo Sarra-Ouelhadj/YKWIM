@@ -1,7 +1,7 @@
 ![interface](https://user-images.githubusercontent.com/59183609/188460191-8a856f44-57c3-474d-b2d4-f7565755dbfd.png)
 # YKWIM
 Ce projet a pour objectif de permettre aux utilisateurs d'enrichir sémantiquement leurs données (obtenir des données RDF) via une *méthode* basée sur l'utilisation 
-d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/template.ods) et son traitement automatique.
+d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/template.xlsx) et son traitement automatique.
 
 ## 1. Aperçu général de la méthode
 ![Méthode](https://user-images.githubusercontent.com/59183609/188460869-e497f42c-b209-4e50-a0c2-1c08723a89b9.png)
@@ -51,23 +51,23 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ### en local
 ```
 $ git clone https://github.com/Sarra-Ouelhadj/YKWIM.git
+$ cd YKWIM
 ```
 
 ------
 [optionnel] : pour installer les libraries dans un environnement virtuel au lieu du système
 ```
 $ virtualenv env -p /usr/bin/python3
-$ source . venv/bin/activate
+$ source env/bin/activate
 ```
 ------
 ```
-$ cd YKWIM
 $ pip install -r requirements.txt
 $ python run.py
 ```
 lancement de la solution en local sur http://127.0.0.1:5000/
 - Télécharger [template de test](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/tests/template_test.ods) déjà rempli
-- (mettre n'importe quel URL dans le champs URL du jeu de données pour l'instant) (en cours de développement)
+- Entrer le lien du [jeu de données](https://data.grandlyon.com/jeux-de-donnees/sites-traitement-dechets-metropole-lyon/donnees) d'exemple format GeoJSON : https://download.data.grandlyon.com/wfs/grandlyon?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=gic_collecte.gicsitetraitement&outputFormat=application/json;%20subtype=geojson&SRSNAME=EPSG:4171
 
 ### sur Heroku (en construction)
 
