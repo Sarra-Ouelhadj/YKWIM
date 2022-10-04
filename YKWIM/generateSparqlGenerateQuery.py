@@ -40,7 +40,7 @@ def generateSparqlGenerateQuery (dataset,path=app.config["UPLOAD_FOLDER"],vocabu
         s+=('BIND(IRI(CONCAT("{}",REPLACE(LCASE(fun:JSONPath(?properties,"$.{}"))," ","_"))) AS ?{})\n'.format(vocabulary_namespace,enum["source"],h.convertToPascalcase(enum["name"])))
     
     s+= "}\n"
-    query_path = path + "query.rq"
+    query_path = "query.rq"
     with open(query_path, 'w') as fp:
         fp.write(s)
     return query_path
