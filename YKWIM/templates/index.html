@@ -27,14 +27,21 @@
                     <i class="bi bi-gear-fill"></i>
                     Configuration
                 </button>
-                <div class="btn-group">
-                    <button class="nav-link btn-lg dropdown-toggle" data-bs-toggle="dropdown" type="button" aria-expanded="false">
-                        <i class="bi bi-question-circle-fill"></i>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{url_for('static',filename='/doc/notice.pdf')}}" target=”_blank”>Aide Template</a></li>
-                        <li><a class="dropdown-item" href="">Exemples de vocabulaires partagés</a></li>
-                    </ul>
+                <div class="dropdown">
+                    <div class="btn-group">
+                        <button class="nav-link btn-lg dropdown-toggle" data-bs-toggle="dropdown" type="button" aria-expanded="false">
+                            <i class="bi bi-question-circle-fill"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{url_for('static',filename='/doc/notice.pdf')}}" target=”_blank”>Aide Template</a></li>
+                            <li class="dropdown dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-layouts" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Exemples de vocabulaires partagés</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-layouts">
+                                    <li><a class="dropdown-item" href="https://schema.org/" target=”_blank”>Schema.org</a></li>
+                                    <li></li><a class="dropdown-item" href="http://data.ign.fr/data.html" target=”_blank”>IGN</a></li>
+                                </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -127,6 +134,9 @@
                                 <span id="instancesURLHelp" class="form-text visually-hidden"></span>
                             </div>
                         </div>
+                        <div class="row py-3">
+                            <button type="submit" class="offset-4 btn btn-primary col-8" aria-disabled="disabled">Modifier</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -140,6 +150,17 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script>
+        let dropdowns = document.querySelectorAll('.dropdown-toggle')
+        dropdowns.forEach((dd)=>{
+            dd.addEventListener('click', function (e) {
+                var el = this.nextElementSibling
+                el.style.display = el.style.display==='block'?'none':'block'
+            }
+        )
+})
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
