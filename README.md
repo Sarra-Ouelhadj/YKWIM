@@ -66,8 +66,11 @@ $ pip install -r requirements.txt
 $ python run.py
 ```
 lancement de la solution en local sur http://127.0.0.1:5000/
-- Télécharger [template de test](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/tests/template.xlsx) déjà rempli
-- Entrer le lien du [jeu de données](https://data.grandlyon.com/jeux-de-donnees/sites-traitement-dechets-metropole-lyon/donnees) d'exemple format GeoJSON : https://download.data.grandlyon.com/wfs/grandlyon?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=gic_collecte.gicsitetraitement&outputFormat=application/json;%20subtype=geojson&SRSNAME=EPSG:4171
+- Saisir dans le champs **_URL du jeu de données_** le lien de téléchargement ci-dessous d'un [jeu de données](https://data.grandlyon.com/jeux-de-donnees/sites-traitement-dechets-metropole-lyon/donnees) pris comme exemple en format GeoJSON :
+https://download.data.grandlyon.com/wfs/grandlyon?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=gic_collecte.gicsitetraitement&outputFormat=application/json;%20subtype=geojson&SRSNAME=EPSG:4171
+- Téléverser dans le champs **_Template_** ce [template](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/tests/template.xlsx) déjà rempli à partir du jeu de données pris comme exemple
+- Cliquer sur Convertir
+
 
 ### sur Heroku (en construction)
 
