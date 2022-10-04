@@ -1,7 +1,7 @@
 ![interface](https://user-images.githubusercontent.com/59183609/188460191-8a856f44-57c3-474d-b2d4-f7565755dbfd.png)
 # YKWIM
 Ce projet a pour objectif de permettre aux utilisateurs d'enrichir sémantiquement leurs données (obtenir des données RDF) via une *méthode* basée sur l'utilisation 
-d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/template.ods) et son traitement automatique.
+d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/template.xlsx) et son traitement automatique.
 
 ## 1. Aperçu général de la méthode
 ![Méthode](https://user-images.githubusercontent.com/59183609/188460869-e497f42c-b209-4e50-a0c2-1c08723a89b9.png)
