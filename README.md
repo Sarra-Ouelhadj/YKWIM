@@ -51,6 +51,7 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ### en local
 ```
 $ git clone https://github.com/Sarra-Ouelhadj/YKWIM.git
+$ cd YKWIM
 ```
 
 ------
@@ -61,7 +62,6 @@ $ source env/bin/activate
 ```
 ------
 ```
-$ cd YKWIM
 $ pip install -r requirements.txt
 $ python run.py
 ```
