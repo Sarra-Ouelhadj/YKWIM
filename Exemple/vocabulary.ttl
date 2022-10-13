@@ -1,0 +1,19 @@
+@prefix ns1: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.grandlyon.com/vocab/anciens_cadres> a skos:Concept ;
+    rdfs:isDefinedBy <https://data.grandlyon.com/vocab/> ;
+    ns1:term_status "testing" ;
+    skos:definition "Anciens cadres" ;
+    skos:inScheme schema:Occupation ;
+    skos:prefLabel "Anciens cadres" .
+
+<https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> a skos:Concept ;
+    rdfs:isDefinedBy <https://data.grandlyon.com/vocab/> ;
+    ns1:term_status "testing" ;
+    skos:definition "Cadres administratifs et commerciaux d'entreprise" ;
+    skos:inScheme schema:Occupation ;
+    skos:prefLabel "Cadres administratifs et commerciaux d'entreprise" .
+

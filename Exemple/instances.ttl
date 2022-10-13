@@ -1,0 +1,1160 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix iter:  <http://w3id.org/sparql-generate/iter/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fun:   <http://w3id.org/sparql-generate/fn/> .
+
+<https://data.grandlyon.com/id/Personne/Suchet>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69284> ;
+        <https://schema.org/birthDate>  "1948-03-26T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Suchet" ;
+        <https://schema.org/givenName>  "Gilbert" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Personne/Pouzergue>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69149> ;
+        <https://schema.org/birthDate>  "1967-01-06T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Pouzergue" ;
+        <https://schema.org/givenName>  "Clotilde" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professeurs_des_écoles,_instituteurs_et_assimilés> .
+
+<https://data.grandlyon.com/id/Personne/David>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69163> ;
+        <https://schema.org/birthDate>  "1961-04-27T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "David" ;
+        <https://schema.org/givenName>  "Pascal" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/ingénieurs_et_cadres_techniques_d'entreprise> .
+
+<https://data.grandlyon.com/id/Personne/Eymard>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69044> ;
+        <https://schema.org/birthDate>  "1951-06-28T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Eymard" ;
+        <https://schema.org/givenName>  "Gérald" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Commune/69233>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Saint-Romain-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69233" .
+
+<https://data.grandlyon.com/id/Commune/69387>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 7ème arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69387" .
+
+<https://data.grandlyon.com/id/Personne/Fautra>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69275> ;
+        <https://schema.org/birthDate>  "1965-11-20T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Fautra" ;
+        <https://schema.org/givenName>  "Laurence" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/chefs_d'entreprise_de_10_salariés_ou_plus> .
+
+<https://data.grandlyon.com/id/Personne/Boudjellaba>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69091> ;
+        <https://schema.org/birthDate>  "1969-06-10T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Boudjellaba" ;
+        <https://schema.org/givenName>  "Mohamed" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_de_la_fonction_publique> .
+
+<https://data.grandlyon.com/id/Commune/69205>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Saint-Genis-les-Ollières" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69205" .
+
+<https://data.grandlyon.com/id/Personne/Enderlin>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69033> ;
+        <https://schema.org/birthDate>  "1968-01-09T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Enderlin" ;
+        <https://schema.org/givenName>  "Angélique" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/employés_administratifs_d'entreprise> .
+
+<https://data.grandlyon.com/id/Personne/Pillon>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69250> ;
+        <https://schema.org/birthDate>  "1957-05-05T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Pillon" ;
+        <https://schema.org/givenName>  "Gilles" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Personne/Viollet>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69273> ;
+        <https://schema.org/birthDate>  "1965-07-18T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Viollet" ;
+        <https://schema.org/givenName>  "Alain" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69259>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Vénissieux" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69259" .
+
+<https://data.grandlyon.com/id/Personne/Guillot>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69191> ;
+        <https://schema.org/birthDate>  "1957-02-14T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Guillot" ;
+        <https://schema.org/givenName>  "Patrick" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Personne/Bellot>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69143> ;
+        <https://schema.org/birthDate>  "1960-12-11T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Bellot" ;
+        <https://schema.org/givenName>  "Éric" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_de_la_fonction_publique> .
+
+<https://data.grandlyon.com/id/Commune/69381>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 1er arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69381" .
+
+<https://data.grandlyon.com/id/Personne/Chipier>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69003> ;
+        <https://schema.org/birthDate>  "1973-10-02T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Chipier" ;
+        <https://schema.org/givenName>  "Yves" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/ingénieurs_et_cadres_techniques_d'entreprise> .
+
+<https://data.grandlyon.com/id/Personne/Poulain>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69087> ;
+        <https://schema.org/birthDate>  "1968-04-02T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Poulain" ;
+        <https://schema.org/givenName>  "Virginie" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69033>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Cailloux-sur-Fontaines" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69033" .
+
+<https://data.grandlyon.com/id/Personne/Odo>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69096> ;
+        <https://schema.org/birthDate>  "1971-01-09T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Odo" ;
+        <https://schema.org/givenName>  "Xavier" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professeurs,_professions_scientifiques> .
+
+<https://data.grandlyon.com/id/Commune/69046>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Charly" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69046" .
+
+<https://data.grandlyon.com/id/Personne/Zinck>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69384> ;
+        <https://schema.org/birthDate>  "1966-05-07T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Zinck" ;
+        <https://schema.org/givenName>  "Rémi" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professeurs,_professions_scientifiques> .
+
+<https://data.grandlyon.com/id/Personne/Dubois-Bertrand>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69383> ;
+        <https://schema.org/birthDate>  "1966-01-03T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Dubois-Bertrand" ;
+        <https://schema.org/givenName>  "Véronique" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Personne/Doucet>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69123> ;
+        <https://schema.org/birthDate>  "1973-08-22T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Doucet" ;
+        <https://schema.org/givenName>  "Grégory" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69087>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Fontaines-Saint-Martin" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69087" .
+
+<https://data.grandlyon.com/id/Personne/Gascon>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69290> ;
+        <https://schema.org/birthDate>  "1967-01-21T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Gascon" ;
+        <https://schema.org/givenName>  "Gilles" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/commerçants_et_assimilés> .
+
+<https://data.grandlyon.com/id/Commune/69266>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Villeurbanne" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69266" .
+
+<https://data.grandlyon.com/id/Personne/Pouzol>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69088> ;
+        <https://schema.org/birthDate>  "1967-03-28T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Pouzol" ;
+        <https://schema.org/givenName>  "Thierry" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/chefs_d'entreprise_de_10_salariés_ou_plus> .
+
+<https://data.grandlyon.com/id/Personne/Vincent>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69116> ;
+        <https://schema.org/birthDate>  "1950-07-04T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Vincent" ;
+        <https://schema.org/givenName>  "Max" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Commune/69153>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Poleymieux-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69153" .
+
+<https://data.grandlyon.com/id/Commune/69279>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Jonage" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69279" .
+
+<https://data.grandlyon.com/id/Commune/69194>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Saint-Didier-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69194" .
+
+<https://data.grandlyon.com/id/Commune/69040>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Champagne-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69040" .
+
+<https://data.grandlyon.com/id/Personne/Cohen>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69283> ;
+        <https://schema.org/birthDate>  "1948-05-02T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Cohen" ;
+        <https://schema.org/givenName>  "Claude" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_artisans,_commerçants,_chefs_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69081>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Écully" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69081" .
+
+<https://data.grandlyon.com/id/Commune/69260>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Vernaison" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69260" .
+
+<https://data.grandlyon.com/id/Personne/Vergiat>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69168> ;
+        <https://schema.org/birthDate>  "1963-07-21T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Vergiat" ;
+        <https://schema.org/givenName>  "Éric" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/ingénieurs_et_cadres_techniques_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69386>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 6ème arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69386" .
+
+<https://data.grandlyon.com/id/Personne/Vincendet>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69286> ;
+        <https://schema.org/birthDate>  "1983-10-06T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Vincendet" ;
+        <https://schema.org/givenName>  "Alexandre" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/personnes_diverses_sans_activité_professionnelle_de_moins_de_60_ans_(sauf_retraités)> .
+
+<https://data.grandlyon.com/id/Commune/69204>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Saint-Genis-Laval" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69204" .
+
+<https://data.grandlyon.com/id/Commune/69273>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Corbas" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69273" .
+
+<https://data.grandlyon.com/id/Personne/Blache>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69386> ;
+        <https://schema.org/birthDate>  "1965-04-21T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Blache" ;
+        <https://schema.org/givenName>  "Pascal" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/chefs_d'entreprise_de_10_salariés_ou_plus> .
+
+<https://data.grandlyon.com/id/Personne/Dubot>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69387> ;
+        <https://schema.org/birthDate>  "1989-03-02T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Dubot" ;
+        <https://schema.org/givenName>  "Fanny" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professions_intermédiaires_administratives_de_la_fonction_publique> .
+
+<https://data.grandlyon.com/id/Personne/Georgel>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69385> ;
+        <https://schema.org/birthDate>  "1977-05-21T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Georgel" ;
+        <https://schema.org/givenName>  "Nadine" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professions_libérales> .
+
+<https://data.grandlyon.com/id/Commune/69286>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Rillieux-la-Pape" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69286" .
+
+<https://data.grandlyon.com/id/Personne/Giraud>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69278> ;
+        <https://schema.org/birthDate>  "1968-07-16T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Giraud" ;
+        <https://schema.org/givenName>  "Valérie" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/personnes_diverses_sans_activité_professionnelle_de_moins_de_60_ans_(sauf_retraités)> .
+
+<https://data.grandlyon.com/id/Personne/Commun>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69127> ;
+        <https://schema.org/birthDate>  "1981-06-04T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Commun" ;
+        <https://schema.org/givenName>  "Loïc" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/ingénieurs_et_cadres_techniques_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69117>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lissieu" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69117" .
+
+<https://data.grandlyon.com/id/Personne/Crétenet>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69205> ;
+        <https://schema.org/birthDate>  "1957-11-08T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Crétenet" ;
+        <https://schema.org/givenName>  "Didier" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Personne/Chadier>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69069> ;
+        <https://schema.org/birthDate>  "1972-04-04T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Chadier" ;
+        <https://schema.org/givenName>  "Sandrine" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69199>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Saint-Fons" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69199" .
+
+<https://data.grandlyon.com/id/Commune/69293>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Sathonay-Village" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69293" .
+
+<https://data.grandlyon.com/id/Commune/69152>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Pierre-Bénite" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69152" .
+
+<https://data.grandlyon.com/id/Commune/69278>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Genay" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69278" .
+
+<https://data.grandlyon.com/id/Personne/Moroge>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69152> ;
+        <https://schema.org/birthDate>  "1979-08-23T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Moroge" ;
+        <https://schema.org/givenName>  "Jérôme" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professions_libérales> .
+
+<https://data.grandlyon.com/id/Personne/Freyer>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69100> ;
+        <https://schema.org/birthDate>  "1969-05-24T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Freyer" ;
+        <https://schema.org/givenName>  "Blandine" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/employés_civils_et_agents_de_service_de_la_fonction_publique> .
+
+<https://data.grandlyon.com/id/Commune/69385>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 5ème arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69385" .
+
+<https://data.grandlyon.com/id/Commune/69244>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Tassin-la-Demi-Lune" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69244" .
+
+<https://data.grandlyon.com/id/Personne/Geoffroy>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69256> ;
+        <https://schema.org/birthDate>  "1970-03-04T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Geoffroy" ;
+        <https://schema.org/givenName>  "Hélène" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professeurs,_professions_scientifiques> .
+
+<https://data.grandlyon.com/id/Personne/Zdorovtzoff>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69388> ;
+        <https://schema.org/birthDate>  "1961-06-22T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Zdorovtzoff" ;
+        <https://schema.org/givenName>  "Sonia" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Personne/Millet>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69204> ;
+        <https://schema.org/birthDate>  "1967-05-05T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Millet" ;
+        <https://schema.org/givenName>  "Marylène" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professions_intermédiaires_de_la_santé_et_du_travail_social> .
+
+<https://data.grandlyon.com/id/Commune/69116>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Limonest" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69116" .
+
+<https://data.grandlyon.com/id/Personne/Rantonnet>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69089> ;
+        <https://schema.org/birthDate>  "1954-06-21T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Rantonnet" ;
+        <https://schema.org/givenName>  "Michel" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Personne/Laurent>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69276> ;
+        <https://schema.org/birthDate>  "1977-09-21T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Laurent" ;
+        <https://schema.org/givenName>  "Murielle" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69003>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Albigny-sur-Saône" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69003" .
+
+<https://data.grandlyon.com/id/Commune/69072>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Dardilly" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69072" .
+
+<https://data.grandlyon.com/id/Commune/69044>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Charbonnières-les-Bains" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69044" .
+
+<https://data.grandlyon.com/id/Commune/69085>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Fleurieu-sur-Saône" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69085" .
+
+<https://data.grandlyon.com/id/Commune/69292>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Sathonay-Camp" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69292" .
+
+<https://data.grandlyon.com/id/Commune/69029>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Bron" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69029" .
+
+<https://data.grandlyon.com/id/Personne/Quiniou>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69282> ;
+        <https://schema.org/birthDate>  "1972-05-13T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Quiniou" ;
+        <https://schema.org/givenName>  "Christophe" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/personnes_diverses_sans_activité_professionnelle_de_moins_de_60_ans_(sauf_retraités)> .
+
+<https://data.grandlyon.com/id/Commune/69123>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69123" .
+
+<https://data.grandlyon.com/id/Personne/Calvel>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69293> ;
+        <https://schema.org/birthDate>  "1946-08-05T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Calvel" ;
+        <https://schema.org/givenName>  "Jean-Pierre" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_artisans,_commerçants,_chefs_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69384>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 4ème arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69384" .
+
+<https://data.grandlyon.com/id/Personne/Bréaud>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69029> ;
+        <https://schema.org/birthDate>  "1981-03-19T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Bréaud" ;
+        <https://schema.org/givenName>  "Jérémie" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/employés_civils_et_agents_de_service_de_la_fonction_publique> .
+
+<https://data.grandlyon.com/id/Commune/69149>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Oullins" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69149" .
+
+<https://data.grandlyon.com/id/Commune/69202>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Sainte-Foy-lès-Lyon" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69202" .
+
+<https://data.grandlyon.com/id/Commune/69271>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Chassieu" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69271" .
+
+<https://data.grandlyon.com/id/Personne/Van Styvendael>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69266> ;
+        <https://schema.org/birthDate>  "1973-10-15T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Van Styvendael" ;
+        <https://schema.org/givenName>  "Cédric" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/chefs_d'entreprise_de_10_salariés_ou_plus> .
+
+<https://data.grandlyon.com/id/Personne/Mathieu>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69194> ;
+        <https://schema.org/birthDate>  "1961-06-03T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Mathieu" ;
+        <https://schema.org/givenName>  "Marie-Hélène" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/personnes_diverses_sans_activité_professionnelle_de_moins_de_60_ans_(sauf_retraités)> .
+
+<https://data.grandlyon.com/id/Personne/Véron>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69068> ;
+        <https://schema.org/birthDate>  "1961-11-30T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Véron" ;
+        <https://schema.org/givenName>  "Patrick" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professions_libérales> .
+
+<https://data.grandlyon.com/id/Commune/69284>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Montanay" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69284" .
+
+<https://data.grandlyon.com/id/Personne/Monnier>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69292> ;
+        <https://schema.org/birthDate>  "1985-10-12T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Monnier" ;
+        <https://schema.org/givenName>  "Damien" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professeurs,_professions_scientifiques> .
+
+<https://data.grandlyon.com/id/Commune/69256>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Vaulx-en-Velin" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69256" .
+
+<https://data.grandlyon.com/id/Commune/69143>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Neuville-sur-Saône" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69143" .
+
+<https://data.grandlyon.com/id/Personne/Deschamps>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69142> ;
+        <https://schema.org/birthDate>  "1955-01-16T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Deschamps" ;
+        <https://schema.org/givenName>  "Véronique" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/ingénieurs_et_cadres_techniques_d'entreprise> .
+
+<https://data.grandlyon.com/id/Personne/Cardona>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69153> ;
+        <https://schema.org/birthDate>  "1958-03-28T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Cardona" ;
+        <https://schema.org/givenName>  "Corinne" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69071>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Curis-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69071" .
+
+<https://data.grandlyon.com/id/Commune/69250>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "La Tour-de-Salvagny" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69250" .
+
+<https://data.grandlyon.com/id/Personne/Berrucaz>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69085> ;
+        <https://schema.org/birthDate>  "1945-07-11T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Berrucaz" ;
+        <https://schema.org/givenName>  "Gérard" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professions_libérales> .
+
+<https://data.grandlyon.com/id/Commune/69389>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 9ème arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69389" .
+
+<https://data.grandlyon.com/id/Commune/69207>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Saint-Germain-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69207" .
+
+<https://data.grandlyon.com/id/Commune/69191>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Saint-Cyr-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69191" .
+
+<https://data.grandlyon.com/id/Commune/69069>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Craponne" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69069" .
+
+<https://data.grandlyon.com/id/Commune/69276>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Feyzin" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69276" .
+
+<https://data.grandlyon.com/id/Personne/Sellès>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69271> ;
+        <https://schema.org/birthDate>  "1955-03-23T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Sellès" ;
+        <https://schema.org/givenName>  "Jean-Jacques" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Personne/Augey>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69389> ;
+        <https://schema.org/birthDate>  "1973-09-23T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Augey" ;
+        <https://schema.org/givenName>  "Camille" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/commerçants_et_assimilés> .
+
+<https://data.grandlyon.com/id/Personne/Barge>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69279> ;
+        <https://schema.org/birthDate>  "1948-06-10T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Barge" ;
+        <https://schema.org/givenName>  "Lucien" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/agriculteurs_sur_moyenne_exploitation> .
+
+<https://data.grandlyon.com/id/Commune/69163>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Quincieux" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69163" .
+
+<https://data.grandlyon.com/id/Personne/Gazan>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69040> ;
+        <https://schema.org/birthDate>  "1971-09-13T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Gazan" ;
+        <https://schema.org/givenName>  "Véronique" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_de_la_fonction_publique> .
+
+<https://data.grandlyon.com/id/Personne/Michel>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69081> ;
+        <https://schema.org/birthDate>  "1979-03-20T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Michel" ;
+        <https://schema.org/givenName>  "Sébastien" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69383>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 3ème arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69383" .
+
+<https://data.grandlyon.com/id/Commune/69091>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Givors" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69091" .
+
+<https://data.grandlyon.com/id/Personne/Cochet>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69034> ;
+        <https://schema.org/birthDate>  "1961-05-23T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Cochet" ;
+        <https://schema.org/givenName>  "Philippe" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/chefs_d'entreprise_de_10_salariés_ou_plus> .
+
+<https://data.grandlyon.com/id/Commune/69063>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Collonges-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69063" .
+
+<https://data.grandlyon.com/id/Personne/Delorme>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69207> ;
+        <https://schema.org/birthDate>  "1981-08-11T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Delorme" ;
+        <https://schema.org/givenName>  "Béatrice" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professions_intermédiaires_de_la_santé_et_du_travail_social> .
+
+<https://data.grandlyon.com/id/Personne/Hombert>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69233> ;
+        <https://schema.org/birthDate>  "1948-11-02T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Hombert" ;
+        <https://schema.org/givenName>  "Jean-Marie" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_cadres> .
+
+<https://data.grandlyon.com/id/Commune/69283>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Mions" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69283" .
+
+<https://data.grandlyon.com/id/Personne/Grange>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69117> ;
+        <https://schema.org/birthDate>  "1982-01-28T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Grange" ;
+        <https://schema.org/givenName>  "Charlotte" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/commerçants_et_assimilés> .
+
+<https://data.grandlyon.com/id/Commune/69089>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Francheville" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69089" .
+
+<https://data.grandlyon.com/id/Commune/69296>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Solaize" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69296" .
+
+<https://data.grandlyon.com/id/Commune/69142>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "La Mulatière" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69142" .
+
+<https://data.grandlyon.com/id/Personne/Vuillemard>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69260> ;
+        <https://schema.org/birthDate>  "1984-03-06T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Vuillemard" ;
+        <https://schema.org/givenName>  "Julien" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/employés_civils_et_agents_de_service_de_la_fonction_publique> .
+
+<https://data.grandlyon.com/id/Personne/Sarselli>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69202> ;
+        <https://schema.org/birthDate>  "1968-12-18T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Sarselli" ;
+        <https://schema.org/givenName>  "Véronique" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professeurs,_professions_scientifiques> .
+
+<https://data.grandlyon.com/id/Commune/69127>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Marcy-l'Étoile" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69127" .
+
+<https://data.grandlyon.com/id/Personne/Germain>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69063> ;
+        <https://schema.org/birthDate>  "1955-01-17T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Germain" ;
+        <https://schema.org/givenName>  "Alain" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_artisans,_commerçants,_chefs_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69168>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Rochetaillée-sur-Saône" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69168" .
+
+<https://data.grandlyon.com/id/Commune/69290>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Saint-Priest" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69290" .
+
+<https://data.grandlyon.com/id/Personne/Duchêne>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69199> ;
+        <https://schema.org/birthDate>  "1957-01-19T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Duchêne" ;
+        <https://schema.org/givenName>  "Christian" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professeurs_des_écoles,_instituteurs_et_assimilés> .
+
+<https://data.grandlyon.com/id/Commune/69388>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 8ème arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69388" .
+
+<https://data.grandlyon.com/id/Personne/Gouverneyre>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69071> ;
+        <https://schema.org/birthDate>  "1963-05-24T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Gouverneyre" ;
+        <https://schema.org/givenName>  "Pierre" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/chefs_d'entreprise_de_10_salariés_ou_plus> .
+
+<https://data.grandlyon.com/id/Personne/Fournillon>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69072> ;
+        <https://schema.org/birthDate>  "1944-09-21T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Fournillon" ;
+        <https://schema.org/givenName>  "Rose-France" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/anciens_artisans,_commerçants,_chefs_d'entreprise> .
+
+<https://data.grandlyon.com/id/Personne/Picard>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69259> ;
+        <https://schema.org/birthDate>  "1967-01-19T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Picard" ;
+        <https://schema.org/givenName>  "Michèle" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/employés_administratifs_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69096>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Grigny" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69096" .
+
+<https://data.grandlyon.com/id/Commune/69068>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Couzon-au-Mont-d'Or" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69068" .
+
+<https://data.grandlyon.com/id/Commune/69275>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Décines-Charpieu" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69275" .
+
+<https://data.grandlyon.com/id/Personne/Barral>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69296> ;
+        <https://schema.org/birthDate>  "1955-03-20T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Barral" ;
+        <https://schema.org/givenName>  "Guy" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Personne/Oliver>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69382> ;
+        <https://schema.org/birthDate>  "1992-06-09T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Oliver" ;
+        <https://schema.org/givenName>  "Pierre" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69382>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Lyon 2ème arrondissement" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69382" .
+
+<https://data.grandlyon.com/id/Commune/69034>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Caluire-et-Cuire" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69034" .
+
+<https://data.grandlyon.com/id/Personne/Bouagga>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69381> ;
+        <https://schema.org/birthDate>  "1982-10-12T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Bouagga" ;
+        <https://schema.org/givenName>  "Yasmine" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professeurs,_professions_scientifiques> .
+
+<https://data.grandlyon.com/id/Personne/Araujo>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69046> ;
+        <https://schema.org/birthDate>  "1980-07-10T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Araujo" ;
+        <https://schema.org/givenName>  "Olivier" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/professions_intermédiaires_administratives_et_commerciales_des_entreprises> .
+
+<https://data.grandlyon.com/id/Commune/69282>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Meyzieu" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69282" .
+
+<https://data.grandlyon.com/id/Commune/69100>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Irigny" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69100" .
+
+<https://data.grandlyon.com/id/Personne/Charmot>
+        a                               <https://schema.org/Person> ;
+        <https://data.grandlyon.com/onto/estmairede>
+                <https://data.grandlyon.com/id/Commune/69244> ;
+        <https://schema.org/birthDate>  "1962-09-02T00:00:00Z" ;
+        <https://schema.org/familyName>
+                "Charmot" ;
+        <https://schema.org/givenName>  "Pascal" ;
+        <https://schema.org/hasOccupation>
+                <https://data.grandlyon.com/vocab/cadres_administratifs_et_commerciaux_d'entreprise> .
+
+<https://data.grandlyon.com/id/Commune/69088>
+        a           <http://data.ign.fr/def/geofla#Commune> ;
+        rdfs:label  "Fontaines-sur-Saône" ;
+        <http://data.ign.fr/def/geofla#numInsee>
+                "69088" .

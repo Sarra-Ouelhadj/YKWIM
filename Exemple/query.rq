@@ -1,0 +1,27 @@
+PREFIX iter: <http://w3id.org/sparql-generate/iter/>
+    PREFIX fun: <http://w3id.org/sparql-generate/fn/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    GENERATE {
+?Commune a <http://data.ign.fr/def/geofla#Commune>;
+	<http://www.w3.org/2000/01/rdf-schema#label> ?Nomcommune;
+	<http://data.ign.fr/def/geofla#numInsee> ?Insee.
+?Personne a <https://schema.org/Person>;
+	<https://schema.org/familyName> ?Nompersonne;
+	<https://schema.org/givenName> ?Prenompersonne;
+	<https://schema.org/birthDate> ?Datedenaissance.
+?Personne <https://data.grandlyon.com/onto/estmairede> ?Commune.
+?Personne <https://schema.org/hasOccupation> ?Profession.
+} 
+ SOURCE <https://download.data.grandlyon.com/wfs/grandlyon?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=cty_citoyennete.maires_2020_2026&outputFormat=application/json;%20subtype=geojson&SRSNAME=EPSG:4171> AS ?source 
+ITERATOR iter:GeoJSON(?source) AS ?geometricCoordinates ?properties 
+ WHERE {
+BIND (fun:JSONPath(?properties,"$.commune") AS ?Nomcommune)
+BIND (fun:JSONPath(?properties,"$.insee") AS ?Insee)
+BIND(IRI(CONCAT("https://data.grandlyon.com/id/Commune/",fun:JSONPath(?properties,"$.insee"))) AS ?Commune)
+BIND (fun:JSONPath(?properties,"$.nom") AS ?Nompersonne)
+BIND(IRI(CONCAT("https://data.grandlyon.com/id/Personne/",fun:JSONPath(?properties,"$.nom"))) AS ?Personne)
+BIND (fun:JSONPath(?properties,"$.prenom") AS ?Prenompersonne)
+BIND (fun:JSONPath(?properties,"$.date_naissance") AS ?Datedenaissance)
+BIND(IRI(CONCAT("https://data.grandlyon.com/vocab/",REPLACE(LCASE(fun:JSONPath(?properties,"$.libelle_profession"))," ","_"))) AS ?Profession)
+}
