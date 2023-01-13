@@ -42,6 +42,99 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ||Si pour les autres associations la colonne classe source est vide : hériter de la classe source précédente|
 ||Afficher la liste des classes et des énumérations destinations à partir de la feuille « Classes » colonne « classe » et de la feuille «Énumérations» colonne « énumération »|
 
+#### 1.2.2 Structure du fichier JSON
+```JSON
+{
+    "classes": [
+        {
+            "name": "Commune",
+            "definition": "",
+            "IRI": "http://data.ign.fr/def/geofla#Commune",
+            "attributes": [
+                {
+                    "name": "nomCommune",
+                    "definition": "",
+                    "IRI": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "source": "commune",
+                    "id": "non"
+                },
+                {
+                    "name": "insee",
+                    "definition": "",
+                    "IRI": "http://data.ign.fr/def/geofla#numInsee",
+                    "source": "insee",
+                    "id": "oui"
+                }
+            ]
+        },
+        {
+            "name": "Personne",
+            "definition": "",
+            "IRI": "https://schema.org/Person",
+            "attributes": [
+                {
+                    "name": "nomPersonne",
+                    "definition": "",
+                    "IRI": "https://schema.org/familyName",
+                    "source": "nom",
+                    "id": "oui"
+                },
+                {
+                    "name": "prenomPersonne",
+                    "definition": "",
+                    "IRI": "https://schema.org/givenName",
+                    "source": "prenom",
+                    "id": "non"
+                },
+                {
+                    "name": "dateDeNaissance",
+                    "definition": "",
+                    "IRI": "https://schema.org/birthDate",
+                    "source": "date_naissance",
+                    "id": "non"
+                }
+            ]
+        }
+    ],
+    "associations": [
+        {
+            "name": "estMaireDe",
+            "source": "Personne",
+            "destination": "Commune",
+            "definition": "la personne est le maire de la commune",
+            "IRI": ""
+        },
+        {
+            "name": "aPourProfession",
+            "source": "Personne",
+            "destination": "Profession",
+            "definition": "",
+            "IRI": "https://schema.org/hasOccupation"
+        }
+    ],
+    "enumerations": [
+        {
+            "name": "Profession",
+            "definition": "",
+            "IRI": "https://schema.org/Occupation",
+            "source": "libelle_profession",
+            "values": [
+                {
+                    "name": "Cadres administratifs et commerciaux d'entreprise",
+                    "definition": "Cadres administratifs et commerciaux d'entreprise",
+                    "IRI": ""
+                },
+                {
+                    "name": "Anciens cadres",
+                    "definition": "Anciens cadres",
+                    "IRI": ""
+                }
+            ]
+        }
+    ]
+}
+```
+
 ## 2. Lancement de la solution
 ### Prérequis (pour le local)
 * Avoir python 3.8.10 installé
