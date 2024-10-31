@@ -169,3 +169,5 @@ https://download.data.grandlyon.com/wfs/grandlyon?SERVICE=WFS&VERSION=2.0.0&requ
 
 link : [https://semantic-lifting-method.herokuapp.com/](https://semantic-lifting-method.herokuapp.com/)
 
+## 3. Publication
+- Sarra Ouelhadj, Pierre-Antoine Champin, Stéphanie Jean-Daubias, Jérémy Gaillard. Méthode pour enrichir sémantiquement les données en utilisant l'UML annoté. EGC 2023 - Extraction et Gestion des Connaissances, Jan 2023, Lyon, France. , Revue des Nouvelles Technologies de l'Information, RNTI-E-39, pp.635-636, 2023. [(Article)](https://hal.science/hal-04021565v1) [(Poster)](https://drive.google.com/file/d/1qw7CtfS6bzSlS3hUcfhDqw5F2xUHSBRi/view?usp=sharing)
