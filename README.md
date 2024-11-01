@@ -42,7 +42,7 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ||Si pour les autres associations la colonne classe source est vide : hériter de la classe source précédente|
 ||Afficher la liste des classes et des énumérations destinations à partir de la feuille « Classes » colonne « classe » et de la feuille «Énumérations» colonne « énumération »|
 
-#### 1.2.2 Structure du fichier JSON
+#### 1.2.2 Structure du fichier JSON intermédiaire
 ```JSON
 {
     "classes": [
