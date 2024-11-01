@@ -31,7 +31,7 @@ d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/bl
 ||1. Chaque valeur d'énumération doit avoir un lien de référence ou une définition|
 |Associations|0. Chaque association doit avoir un lien de référence ou une définition|
 
-##### b. Fonctionnalités
+##### b. Fonctionnalités intégrées dans le template
 |feuille|fonctionnalité|
 |---|---|
 |Attributs|Afficher la liste des classes à partir de la feuille « Classes » colonne « classe »|
