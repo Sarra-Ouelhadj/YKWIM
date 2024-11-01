@@ -4,7 +4,7 @@ Ce projet a pour objectif de permettre aux utilisateurs d'enrichir sémantiqueme
 d'un *tableur* appelé ici [template](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/template.xlsx) et son traitement automatique.
 
 ## 1. Aperçu général de la méthode
-![Méthode](https://user-images.githubusercontent.com/59183609/188460869-e497f42c-b209-4e50-a0c2-1c08723a89b9.png)
+![Méthode GES](https://github.com/user-attachments/assets/3cbb794a-697e-4c46-8934-35d9bb995c9e)
 
 ### 1.1 Utilisation du template (actions manuelles)
 👉️ Voir [notice](https://github.com/Sarra-Ouelhadj/YKWIM/blob/master/YKWIM/static/doc/notice.pdf) méthode d’enrichissement sémantique
